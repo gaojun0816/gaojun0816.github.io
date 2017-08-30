@@ -1,10 +1,26 @@
-# Site settings
-title: Solo, a Jekyll Theme
-tag_text: Solo
-description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Build settings
-markdown: kramdown
-exclude: ["README.md"]
-sass:
-  style: compressed
+# Setup
+title:            GaoJun's Site
+tagline:          'A Jekyll theme'
+description:      'This is the personal website of GaoJun'
+url:              https://gaojun0816.github.io
+# baseurl:          
+
+author:
+  name:           'Jun Gao'
+  #  url:            https://twitter.com/fongandrewc
+
+paginate:         5
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:           1.0.0
+sidebar_home_link:  true
+github:
