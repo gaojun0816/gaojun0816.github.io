@@ -1,29 +1,28 @@
 {
   "basics": {
-    "name": "Philip Johnson",
-    "label": "Professor",
+    "name": "Jun GAO",
+    "title": "Dr.",
     "picture": "/images/jun.jpg",
-    "email": "johnson@hawaii.edu",
-    "phone": "808-956-3489",
-    "website": "https://philipmjohnson.github.io",
-    "summary": "I am a Professor of [Information and Computer Sciences](http://www.ics.hawaii.edu) at the University of Hawaii and Director of the [Collaborative Software Development Laboratory](http://csdl.ics.hawaii.edu)",
+    "email": "gaojun0816@gmail.com",
+    "phone": "+352 661 445 720",
+    "website": "https://gaojun0816.github.io",
+    "motto": "The future depends on what you do today.",
     "location": {
-      "address": "1680 East-West Rd, POST 307A",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "address": "12 rue des Roses",
+      "postalCode": "7249",
+      "city": "Bereldange",
+      "country": "Luxembourg"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "philipmjohnson",
-        "url": "http://github.com/philipmjohnson"
+        "username": "gaojun0816",
+        "url": "http://github.com/gaojun0816"
       },
       {
         "network": "linkedin",
-        "username": "philipmjohnson",
-        "url": "http://linkedin.com/in/philipmjohnson"
+        "username": "Jun Gao",
+        "url": "https://www.linkedin.com/in/jun-gao-a5665635"
       }
     ]
   },

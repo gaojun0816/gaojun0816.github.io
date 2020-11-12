@@ -38,6 +38,7 @@ body {
 #sidebar {
   flex: 0 0 auto;
   padding: $section-spacing;
+  margin-bottom: auto;
 
   .site-title {
     font-family: "Abril Fatface", serif;
@@ -178,7 +179,7 @@ body {
     }
   }
 
-  .index #sidebar { margin-bottom: 0; }
+  .index #sidebar { margin-bottom: auto; }
 
   // Make entire container background white to contrast against sidebar
   .container {
@@ -304,10 +305,21 @@ body {
 ----------------------------------------------------------- */
 
 .circular.avatar {
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     background-size:cover;
     border-radius:50%;
-    margin-bottom: 20px;
+    margin:0 auto 20px auto;
+}
+
+/* -----------------------------------------------------------
+ Social icon attribute
+
+ social icon from fontawesome
+----------------------------------------------------------- */
+
+.fa-icon {
+    font-size: 36px;
+    color: lightblue;
 }
 

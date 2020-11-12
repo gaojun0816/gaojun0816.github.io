@@ -7,17 +7,17 @@
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
-        {{ site.title }}
+        {{ site.data.bio.basics.name }}
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
-    <p class="lead">{{ site.description }}</p>
+    <p class="lead">{{ site.data.bio.basics.motto }}</p>
   </header>
   {% include sidebar-nav-links.html %}
 
-  {% if site.version %}
-    <span class="site-version">Currently v{{ site.version }}</span>
-  {% endif %}
+  <!-- {% if site.version %} -->
+  <!--   <span class="site&#45;version">Currently v{{ site.version }}</span> -->
+  <!-- {% endif %} -->
 
   {% include sidebar-icon-links.html %}
-  {% include copyright.html %}
+  <!-- {% include copyright.html %} -->
 </div>

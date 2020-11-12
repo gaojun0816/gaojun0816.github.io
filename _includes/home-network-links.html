@@ -1,0 +1,8 @@
+
+{% for profile in site.data.bio.basics.profiles %}
+   <a href="{{ profile.url }}" class="icon"> <i class="fab fa-{{ profile.network | downcase }} fa-icon"></i> </a>
+{% endfor %}
+
+{% if site.data.bio.basics.email %}
+<a href="/emailme.html" class="icon"> <i class="fas fa-at fa-icon"></i> </a>
+{% endif %}

@@ -112,8 +112,10 @@ a[href^="#fnref:"] {
 // Extend paragraphs with `.lead` for larger introductory text.
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  // font-size: 1.25rem;
+  // font-weight: 300;
+  // font: italic bold 12px/30px Georgia, serif;
+  font: italic bold 15px/30px "Great Vibes", cursive;
 }
 
 // SVG Icons
