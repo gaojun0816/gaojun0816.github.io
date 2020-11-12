@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Email Me
-sidebar_link: true
+sidebar_link: false
 ---
 
 <div class="email">
