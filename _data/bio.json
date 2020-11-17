@@ -1,17 +1,19 @@
 {
   "basics": {
     "name": "Jun GAO",
-    "title": "Dr.",
-    "picture": "/images/jun.jpg",
-    "email": "gaojun0816@gmail.com",
+    "label": "Doctor of Philosophy",
+    "cv": "/resources/jun-cv.pdf",
+    "picture": "/images/jun_square.jpg",
+    "email": "gaojun0816@yahoo.com",
     "phone": "+352 661 445 720",
     "website": "https://gaojun0816.github.io",
-    "motto": "The future depends on what you do today.",
+    "summary": "I am a doctoral researcher in the [University of Luxembourg](https://wwwen.uni.lu/) under the supervision of [Prof. Jacques Klein](https://jacquesklein2302.github.io/) and [Prof. Tegawendé F. BISSYANDE](https://bissyande.github.io/). My research topic is on the security of Android applications. The main tasks include: 1) Developing static analysis tools with mainly Java. 2) Mining tool reports for features, patterns etc. with Python and relevant data analysis libraries (e.g., numpy, pandas, matplotlib). 3) Deploying investigations and analyses on [HPC](https://hpc.uni.lu/) for large scale study with Bash and Python scirpt.<br/><br/>I received my M.S. degree in Communication Systems from [Royal Institute of Technolog (KTH)](https://www.kth.se/en), Sweden, and will be granted the Ph.D. degree of Computer Science in Jan, 2021. I have more than 7 years of professional experience in a few different technical sectors as well. These reflect my eagerness to different technologies and competency of efficient self-learning. I am open-minded and also a person of critical thinking and self-examination.<br/><br/> In my leisure time, I am a jogger and badminton player. I enjoy reading Sci-Fi novels, books on physics, mathematics, economics as well as history. I also do side projects on machine learning and microcontroller programming.",
     "location": {
       "address": "12 rue des Roses",
       "postalCode": "7249",
-      "city": "Bereldange",
-      "country": "Luxembourg"
+      "city": "Walferdange",
+      "countryCode": "LUX",
+      "region": "Bereldange"
     },
     "profiles": [
       {
@@ -22,49 +24,44 @@
       {
         "network": "linkedin",
         "username": "Jun Gao",
-        "url": "https://www.linkedin.com/in/jun-gao-a5665635"
+        "url": "http://linkedin.com/in/jun-gao-a5665635"
+      },
+      {
+        "network": "google-scholar",
+        "username": "Jun Gao",
+        "url": "https://scholar.google.com/citations?user=ti7gajsAAAAJ&hl=en"
       }
     ]
   },
   "work": [
     {
-      "company": "University of Hawaii",
-      "position": "Professor",
-      "website": "http://www.ics.hawaii.edu/",
-      "startDate": "1990-08-01",
-      "endDate": "Present",
-      "summary": "Department of Information and Computer Sciences",
+      "company": "Yabroad Information Co. Ltd, China",
+      "position": "Co-founder, CTO",
+      "website": "",
+      "startDate": "2013-03-01",
+      "endDate": "2016-06-01",
+      "summary": "",
       "highlights": [
-        "Professor, 2001-present",
-        "Associate Chair, 2010-2016",
-        "Director, Collaborative Software Development Laboratory, 1990-present",
-        "Associate Professor, 1995-2001",
-        "Assistant Professor, 1990-1995"
+        "VPN setup (openvpn)",
+        "Access control (Linux iptable)",
+        "Git server setup",
+        "Webserver setup (AWS)",
+        "Web application design and development",
+        "Project management"
       ]
     },
     {
-      "company": "Open Power Quality",
-      "position": "CEO",
-      "website": "https://openpowerquality.com/",
-      "startDate": "2013-01-01",
-      "endDate": "2019-06-01",
-      "summary": "Co-founder and leader of technical development",
-      "highlights": []
-    },
-    {
-      "company": "Blekinge Institute of Technology",
-      "position": "Visiting Professor",
-      "website": "https://www.bth.se/eng/",
-      "startDate": "2006-08-01",
-      "summary": "School of Engineering",
-      "highlights": []
-    },
-    {
-      "company": "University of Queensland",
-      "position": "Senior Research Fellow",
-      "startDate": "1997-05-01",
-      "summary": "Distributed Systems Technology Centre",
-      "highlights": []
+      "company": "Kunming University of Science and Technology (KUST), China",
+      "position": "Network Engineer",
+      "website": "http://www.kmust.edu.cn",
+      "startDate": "2006-07-01",
+      "endDate": "2010-08-01",
+      "summary": "Network and Information Center",
+      "highlights": [
+          "<em>Campus network design and maintenance</em>: <ul> <li>IP address configuration.</li> <li>routing strategy design and implementation.</li> <li>QoS strategy design and implementation.</li> <li>Load balance configuration.</li> <li>Routers, switches, WLAN, configuration.</li> </ul>",
+          "<em>Services setup and maintenance</em>: <ul><li>DHCP, DNS, email, WWW, RAID</li></ul>",
+          "<em>Network Security setup & monitor</em>: <ul><li>Firewall configuration</li> <li>IPSec VPN</li> <li>IDS/IPS (Snort etc.) configuration and monitor</li> <li>RADIUS configuration</li></ul>"
+      ]
     }
   ],
   "volunteer": [
@@ -116,266 +113,246 @@
   ],
   "education": [
     {
-      "institution": "University of Massachusetts, Amherst, MA",
-      "area": "Computer Science",
+      "institution": "University of Luxembourg, Luxembourg",
+      "area": "Mobile Security",
       "studyType": "Ph.D.",
-      "endDate": "1990-08-01",
+      "startDate": "2017-01-15",
+      "endDate": "Present",
       "gpa": "",
-      "courses": []
+      "courses": [],
+      "thesis": "Mining App Lineages: A Security Perspective"
     },
     {
-      "institution": "University of Massachusetts, Amherst, MA",
-      "area": "Computer Science",
+      "institution": "Royal Institute of Technology (KTH), Sweden",
+      "area": "Communication Systems",
       "studyType": "M.S.",
-      "endDate": "1985-06-01",
+      "startDate": "2010-09-01",
+      "endDate": "2013-03-01",
       "gpa": "",
-      "courses": []
+      "courses": [],
+      "thesis": "Cost and Performance Tradeoff Analysis of Cell Planning Levels"
     },
     {
-      "institution": "University of Michigan, Ann Arbor, MI",
-      "area": "Biology, Computer Science",
+      "institution": "Kunming University of Science and Technology (KUST), China",
+      "area": "Electronic Information Science and Technology",
       "studyType": "B.S.",
-      "endDate": "1980-05-01",
+      "startDate": "2001-09-01",
+      "endDate": "2005-07-01",
       "gpa": "",
-      "courses": []
+      "courses": [],
     }
   ],
   "publications": [
     {
-      "name": "Beyond course work: expanding what's valued in computer science degree programs",
-      "type": "journal",
-      "author": "Seungoh Paek, Peter Leong, Philip M. Johnson, and Carleton A. Moore",
-      "publisher": "Journal of Applied Research in Higher Education",
-      "releaseDate": "September, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-08/20-08.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Design, Implementation, and Evaluation of Open Power Quality",
-      "type": "journal",
-      "author": "Anthony J. Christe, Sergey Negrashov, and Philip M. Johnson",
-      "publisher": "Energies 13(15)",
-      "releaseDate": "August, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-07/20-07.pdf",
-      "summary": ""
-    },
-    {
-      "name": "RadGrad: Removing the 'Extra' from Extracurricular to Improve Student Engagement, Retention, and Diversity",
+      "name": "Borrowing your enemy's arrows: the case of code reuse in android via direct inter-app code invocation",
       "type": "conference",
-      "author": "Philip M. Johnson, Carleton A. Moore, Peter Leong, Seungoh Paek",
-      "publisher": "Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE 2020)",
-      "releaseDate": "March, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-04/19-04.pdf",
-      "summary": ""
+      "pubabbr": "ESEC/FSE",
+      "author": "<b>Jun Gao</b>, Li Li, Pingfan Kong, Tegawendé F Bissyandé, and Jacques Klein",
+      "publisher": "The 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2020)",
+      "releaseDate": "2020",
+      "code": "dici_2020"
     },
     {
-      "name": "Design and evaluation of an athletic approach to software engineering education",
-      "type": "journal",
-      "author": "Philip M. Johnson",
-      "publisher": "ACM Transactions on Computing Education",
-      "releaseDate": "August, 2019",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-03/19-03.pdf",
-      "summary": ""
+        "name": "Knowledgezooclient: Constructing knowledge graph for android",
+        "type": "conference",
+        "pubabbr": "ASE",
+        "author": "Li Li, <b>Jun Gao</b>, Tegawendé F Bissyandé, Lei Ma, Xin Xia, and Jacques Klein",
+        "publisher": "The 3rd International Workshop on Advances in Mobile App Analysis (A-Mobile 2020), co-located with ASE 2020",
+        "releaseDate": "2020",
+        "code": "knowledgezoo_2020"
     },
     {
-      "name": "A transient classification system implementation on an open source distributed power quality network",
-      "type": "conference",
-      "author": "Charles Dickens, Anthony J. Christe, and Philip M. Johnson",
-      "publisher": "Proceedings of the Ninth International Conference on Smart Grids, Green Communications and IT Energy-aware Technologies",
-      "releaseDate": "June, 2019",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-02/19-02.pdf",
-      "summary": ""
+        "name": "Cda: Characterising deprecated android apis",
+        "type": "journal",
+        "pubabbr": "EMSE",
+        "author": "Li Li, <b>Jun Gao</b>, Tegawendé F Bissyandé, Lei Ma, Xin Xia, and Jacques Klein",
+        "publisher": "Empirical Software Engineering (EMSE)",
+        "releaseDate": "2020",
+        "code": "cda_2020"
     },
     {
-      "name": "OPQ Version 2: An Architecture for Distributed, Real-Time, High Performance Power Data Acquisition, Analysis, and Visualization",
-      "type": "conference",
-      "author": "A. Christe, S. Negrashov, P. Johnson, D. Nakahodo, D. Badke, and D. Aghalarpour",
-      "publisher": "Proceedings of the Seventh Annual IEEE International Conference on CYBER Technology in Automation, Control, and Intelligent Systems",
-      "releaseDate": "July, 2017",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2017/17-03/17-03.pdf",
-      "summary": ""
+        "name": "On the evolution of mobile app complexity",
+        "type": "conference",
+        "pubabbr": "ICECCS",
+        "author": "<b>Jun Gao</b>, Li Li, T. F. Bissyandé, and J. Klein",
+        "publisher": "The 24th International Conference on Engineering of Complex Computer Systems (ICECCS 2019)",
+        "releaseDate": "2019",
+        "code": "complex_2019"
     },
     {
-      "name": "Design and evaluation of the Makahiki open source serious game framework for sustainability education",
-      "type": "bookchapter",
-      "author": "Y. Xu, P.  Johnson, G. Lee, C. Moore, and R. Brewer",
-      "publisher": "In: Sustainability, Green IT and Education Strategies in the 21st Century",
-      "releaseDate": "September, 2016",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2016/16-03/16-03.pdf",
-      "summary": ""
+        "name": "Understanding the evolution of android app vulnerabilities",
+        "type": "journal",
+        "pubabbr": "TRel",
+        "author": "<b>Jun Gao</b>, Li Li, Pingfan Kong, T. F. Bissyandé, and J. Klein",
+        "publisher": "IEEE Transactions on Reliability",
+        "releaseDate": "2019",
+        "code": "vul_2019"
     },
     {
-      "name": "OpenPowerQuality: An Open Source Framework for Power Quality Collection, Analysis, Visualization, and Privacy",
-      "type": "conference",
-      "author": "A. Christe, S. Negrashov, P. Johnson",
-      "publisher": "Proceedings of the Seventh Conference on Innovative Smart Grid Technologies",
-      "releaseDate": "September, 2016",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2016/16-02/16-02.pdf",
-      "summary": ""
+        "name": "Negative results on mining crypto-api usage rules in android apps",
+        "type": "conference",
+        "pubabbr": "MSR",
+        "author": "<b>Jun Gao</b>, Pingfan Kong, Li Li, T. F. Bissyandé, and J. Klein",
+        "publisher": "IEEE/ACM 16th International Conference on Mining Software Repositories (MSR 2019)",
+        "releaseDate": "2019",
+        "code": "crypto_2019"
     },
     {
-      "name": "An athletic approach to software engineering education",
-      "type": "conference",
-      "author": "P.Johnson, D.Port, E.Hill",
-      "publisher": "Proceedings of the 29th IEEE Conference on Software Engineering Education and Training",
-      "releaseDate": "April, 2016",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2016/16-01/16-01.pdf",
-      "summary": ""
+        "name": "Mining android crash fixes in the absence of issue-and change-tracking systems",
+        "type": "conference",
+        "pubabbr": "ISSTA",
+        "author": "Pingfan Kong, Li Li, <b>Jun Gao</b>, Tegawendé F Bissyandé, and Jacques Klein",
+        "publisher": "The 28th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2019)",
+        "releaseDate": "2019",
+        "code": "crash_2019"
     },
     {
-      "name": "Is an athletic approach the future of software engineering?",
-      "type": "journal",
-      "author": "E. Hill, P. Johnson, D. Port",
-      "publisher": "IEEE Software",
-      "releaseDate": "January, 2016",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2015/15-03/15-03.pdf",
-      "summary": ""
+        "name": "Automated testing of android apps: A systematic literature review",
+        "type": "journal",
+        "pubabbr": "TRel",
+        "author": "Pingfan Kong, Li Li, <b>Jun Gao</b>, Kui Liu, Tegawendé F Bissyandé, and Jacques Klein",
+        "publisher": "IEEE Transactions on Reliability",
+        "releaseDate": "2018",
+        "code": "slr_2018"
     },
     {
-      "name": "Three principals for the design of energy feedback visualizations",
-      "author": "R.Brewer, Y. Xu, G. Lee, M. Katchuck, C. Moore, P. Johnson",
-      "type": "journal",
-      "publisher": "International Journal on Advances in Intelligent Systems",
-      "releaseDate": "December, 2013",
-      "website": "",
-      "summary": ""
-    },
-    {
-      "name": "Searching under the streetlight for useful software analytics",
-      "author": "P. Johnson",
-      "type": "journal",
-      "publisher": "IEEE Software",
-      "releaseDate": "Volume 30, No. 4, July, 2013",
-      "website": "",
-      "summary": ""
-    },
-    {
-      "name": "SGSEAM: Assessing serious game frameworks from a stakeholder experience perspective",
-      "author": "Y. Xu, P. Johnson, C. Moore, R. Brewer, J. Takayama",
-      "type": "conference",
-      "publisher": "Proceedings of the First International Conference on Gameful Design, Research, and Applications",
-      "releaseDate": "Stratford, Ontario, Canada, October 2013",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2013/13-03/13-03.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Makahiki+WattDepot: An open source software stack for next generation energy research and education",
-      "author": "P. Johnson, Y. Xu, R. Brewer, C. Moore, G. Lee, A. Connell",
-      "type": "conference",
-      "publisher": "Proceedings of the 2013 Conference on Information and Communication Technologies for Sustainability",
-      "releaseDate": "Zurich, Switzerland, February 2013",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2012/12-06/12-06.pdf",
-      "summary": ""
+        "name": "Characterising deprecated android apis",
+        "type": "conference",
+        "pubabbr": "MSR",
+        "author": "Li Li, <b>Jun Gao</b>, Tegawendé F Bissyandé, Lei Ma, Xin Xia, and Jacques Klein",
+        "publisher": "The 15th International Conference on Mining Software Repositories (MSR 2018)",
+        "releaseDate": "2018",
+        "code": "deprecate_2018"
     }
   ],
   "awards": [
     {
       "type": "award",
-      "title": "Board of Regents Medal for Excellence in Teaching",
-      "date": "June, 2019",
-      "awarder": "University of Hawaii",
+      "title": "FOSS Impact Paper",
+      "date": "May, 2018",
+      "awarder": "Mining Software Repositories (MSR)",
       "summary": ""
     },
     {
-      "type": "grant",
-      "title": "Using Degree Experience Plans to Improve Engagement, Retention, and Diversity of Undergraduates in Computer Science",
-      "date": "",
-      "awarder": "National Science Foundation",
-      "summary": "P. Johnson, Principal Investigator; Peter Leong, Seungoh Paek, Carleton Moore, Co-Principal Investigators $331,208. 2018"
+      "type": "award",
+      "title": "Honored Guest",
+      "date": "2009",
+      "awarder": "Sino-Thai Higher Education Staff Exchange Program",
+      "summary": "Exchanged to Mae Fah Luang University, Thailand"
     },
     {
-      "type": "grant",
-      "title": "President's Green Project Implementation Award",
-      "date": "",
-      "awarder": "University of Hawaii",
-      "summary": "P. Johnson, Principal Investigator. $10,000. 2018"
-    },
-    {
-      "type": "grant",
-      "title": "Human centered information integration for the smart grid",
-      "date": "",
-      "awarder": "National Science Foundation",
-      "summary": "P. Johnson, Principal Investigator. $413,467. 2010-2014"
-    },
-    {
-      "type": "grant",
-      "title": "Supporting next generation energy education with the Kukui Cup",
-      "date": "",
-      "awarder": "HEI Charitable Foundation",
-      "summary": "P. Johnson, Principal Investigator. $10,777. 2012"
-    },
-    {
-      "type": "grant",
-      "title": "Sponsorship of the 2011 Kukui Cup",
-      "date": "",
-      "awarder": "Hawaii State Department of Business, Economic Development, and Tourism",
-      "summary": "P. Johnson, Principal Investigator. $5,000. 2012"
-    },
-    {
-      "type": "grant",
-      "title": "Renewable energy and island sustainability",
-      "date": "",
-      "awarder": "University of Hawaii",
-      "summary": "Principal Investigator: T. Kuh; Co-Principal Investigators: O. Boric-Lubecke, B. Chao, M. Coffman, D. Garmire, M.Nejhad, R. Ghorbani, P. Johnson, A. Kavcic, D. Konan, B. Liaw, E. Miller, W. Qu, M. Teng, X. Zhou. $1,000,000. 2009-2011"
-    },
-    {
-      "type": "grant",
-      "title": "Google Summer of Code: Hackystat",
-      "date": "",
-      "awarder": "Google, Inc.",
-      "summary": "P. Johnson, Principal Investigator. $45,000. 2008-2009"
+      "type": "award",
+      "title": "National 1st Prize",
+      "date": "2004",
+      "awarder": "Contemporary Undergraduate Mathematical Contest in Modeling",
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Programming",
       "level": "",
       "keywords": [
         "Java",
+        "Python",
         "Javascript",
-        "Meteor"
+        "Bash",
+        "C/C++"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Web Dev",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Unix",
-        "Git/GitHub",
-        "g++",
-        "Emacs"
+        "HTML",
+        "CSS/SASS",
+        "jQuery",
+        "REST",
+        "XMPP",
+        "Django"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "",
+      "keywords": [
+        "Numpy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Scikits",
+        "CUDA",
+        "SPARK",
+        "HADOOP",
+        "Pytorch",
+        "R",
+        "Jupyter"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "",
+      "keywords": [
+        "Socket programming",
+        "TCP/IP",
+        "IPv6",
+        "NAT",
+        "OSPF",
+        "RIP",
+        "BGP",
+        "IGMP",
+        "GRE",
+        "QoS",
+        "STP",
+        "VLAN",
+        "WLAN"
+      ]
+    },
+    {
+      "name": "Cyber Security",
+      "level": "",
+      "keywords": [
+        "Firewall",
+        "IDS/IPS",
+        "SSL & IPSec VPN",
+        "RADIUS",
+        "IKE"
       ]
     }
   ],
   "languages": [
     {
+      "name": "Chinese",
+      "level": "Native"
+    },
+    {
       "name": "English",
-      "level": "Native speaker"
+      "level": "Proficient"
+    },
+    {
+      "name": "French",
+      "level": "basic"
     }
   ],
   "interests": [
     {
-      "name": "Climate Change",
+      "name": "Mobile Security",
       "keywords": []
     },
     {
-      "name": "Software Engineering",
+      "name": "Static Analysis",
       "keywords": [
-        "software metrics",
-        "full stack application development"
+          "Byte code analysis",
+          "Binary analysis"
       ]
     },
     {
-      "name": "Serious Games",
+      "name": "Machine Learning/Deep Learing",
       "keywords": []
     },
     {
-      "name": "Renewable Energy",
-      "keywords": [
-        "power quality",
-        "energy analytics"
-      ]
+      "name": "microcontroller/single-board programming",
+      "keywords": []
     }
   ],
   "references": [

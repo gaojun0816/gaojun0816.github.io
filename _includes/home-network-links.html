@@ -1,8 +1,17 @@
+<!-- Used by theme-home-builtin-1,2,3 -->
 
 {% for profile in site.data.bio.basics.profiles %}
-   <a href="{{ profile.url }}" class="icon"> <i class="fab fa-{{ profile.network | downcase }} fa-icon"></i> </a>
+<a href="{{ profile.url }}" target="_blank">
+   {% if profile.network == "google-scholar" %}
+    <i style="font-family: Academicons" class="big ai ai-{{ profile.network | downcase }}-square icon icon-color"></i>
+   {% else %}
+   <i class="big {{ profile.network | downcase }} square icon icon-color"></i>
+   {% endif %}
+   </a>
 {% endfor %}
 
-{% if site.data.bio.basics.email %}
-<a href="/emailme.html" class="icon"> <i class="fas fa-at fa-icon"></i> </a>
-{% endif %}
+<!-- {% if site.data.bio.basics.email %} -->
+<!--   <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon&#45;color"></i> </a> -->
+<!-- {% endif %} -->
+  <a href="emailme.html"> <i class="big mail square icon icon-color"></i> </a>
+

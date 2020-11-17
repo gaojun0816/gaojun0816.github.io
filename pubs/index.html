@@ -1,0 +1,30 @@
+---
+layout: pub
+---
+
+<div style="margin-top: 80px; margin-bottom: 20px" class="ui text container">
+  <h1 style="font-size: xxx-large">Publications</h1>
+
+    {% assign currentyear = 0 %}
+    {% for entry in site.data.bio.publications %}
+        {% if entry.releaseDate != currentyear %}
+        <div class="sixteen wide column no-bottom">
+            <h3 style="font-size: xx-large; margin-top: 40px" class="ui left aligned header no-bottom">{{ entry.releaseDate }}</h3>
+          <hr>
+        </div>
+        {% assign currentyear = entry.releaseDate %}
+        {% endif %}
+
+    <div style="margin-top: 20px" class="sixteen wide column no-bottom">
+        <p class="ui no-bottom">
+        {% if entry.author and entry.author != "" %}{{ entry.author }}{% endif %}, <em>{{ entry.name }}</em>, {{ entry.publisher }}, {{ entry.releaseDate }}.
+          {% if entry.code %}
+          <a href="{{ site.baseurl }}/pubs/{{ entry.code }}.pdf">[pdf]</a>
+          <a href="{{ site.baseurl }}/pubs/{{ entry.code }}.bib">[bib]</a>
+          {% endif %}
+        </p>
+        <p class="ui no-bottom">{{ entry.summary }}</p>
+    </div>
+    {% endfor %}
+
+</div>

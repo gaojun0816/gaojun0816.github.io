@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3368089.3409745,
+author = {Gao, Jun and Li, Li and Kong, Pingfan and Bissyand\'{e}, Tegawend\'{e} F. and Klein, Jacques},
+title = {Borrowing Your Enemy’s Arrows: The Case of Code Reuse in Android via Direct Inter-App Code Invocation},
+year = {2020},
+isbn = {9781450370431},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi-org.proxy.bnl.lu/10.1145/3368089.3409745},
+doi = {10.1145/3368089.3409745},
+abstract = {The Android ecosystem offers different facilities to enable communication among app components and across apps to ensure that rich services can be composed through functionality reuse. At the heart of this system is the Inter-component communication (ICC) scheme, which has been largely studied in the literature. Less known in the community is another powerful mechanism that allows for direct inter-app code invocation which opens up for different reuse scenarios, both legitimate or malicious. This paper exposes the general workflow for this mechanism, which beyond ICCs, enables app developers to access and invoke functionalities (either entire Java classes, methods or object fields) implemented in other apps using official Android APIs. We experimentally showcase how this reuse mechanism can be leveraged to “plagiarize" supposedly-protected functionalities. Typically, we were able to leverage this mechanism to bypass security guards that a popular video broadcaster has placed for preventing access to its video database from outside its provided app. We further contribute with a static analysis toolkit, named DICIDer, for detecting direct inter-app code invocations in apps. An empirical analysis of the usage prevalence of this reuse mechanism is then conducted. Finally, we discuss the usage contexts as well as the implications of this studied reuse mechanism.},
+booktitle = {Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+pages = {939–951},
+numpages = {13},
+keywords = {Android, Java Reflection, DICI},
+location = {Virtual Event, USA},
+series = {ESEC/FSE 2020}
+}

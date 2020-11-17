@@ -1,8 +1,9 @@
-node_modules/*
-.jekyll-metadata
-Gemfile.lock
+# Created by .ignore support plugin (hsz.mobi)
+
 .idea/
+*.iml
 _site/
 .sass-cache/
 *.iml
 .DS_Store
+Gemfile.lock

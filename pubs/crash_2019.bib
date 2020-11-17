@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3293882.3330572,
+author = {Kong, Pingfan and Li, Li and Gao, Jun and Bissyand\'{e}, Tegawend\'{e} F. and Klein, Jacques},
+title = {Mining Android Crash Fixes in the Absence of Issue- and Change-Tracking Systems},
+year = {2019},
+isbn = {9781450362245},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi-org.proxy.bnl.lu/10.1145/3293882.3330572},
+doi = {10.1145/3293882.3330572},
+abstract = {Android apps are prone to crash. This often arises from the misuse of Android framework APIs, making it harder to debug since official Android documentation does not discuss thoroughly potential exceptions.Recently, the program repair community has also started to investigate the possibility to fix crashes automatically. Current results, however, apply to limited example cases. In both scenarios of repair, the main issue is the need for more example data to drive the fix processes due to the high cost in time and effort needed to collect and identify fix examples. We propose in this work a scalable approach, CraftDroid, to mine crash fixes by leveraging a set of 28 thousand carefully reconstructed app lineages from app markets, without the need for the app source code or issue reports. We developed a replicative testing approach that locates fixes among app versions which output different runtime logs with the exact same test inputs. Overall, we have mined 104 relevant crash fixes, further abstracted 17 fine-grained fix templates that are demonstrated to be effective for patching crashed apks. Finally, we release ReCBench, a benchmark consisting of 200 crashed apks and the crash replication scripts, which the community can explore for evaluating generated crash-inducing bug patches.},
+booktitle = {Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+pages = {78–89},
+numpages = {12},
+keywords = {mining software repository, debugging, Android, crash, testing},
+location = {Beijing, China},
+series = {ISSTA 2019}
+}

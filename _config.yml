@@ -1,20 +1,25 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Site settings
 
-# Setup
-title:            GaoJun's Site
-tagline:          'A Jekyll theme'
-# baseurl:          
+# REQUIRED CHANGES
+# Edit next line, providing your own name.
+title: Jun Gao | Professional Portfolio
+# Edit next line, replacing 'techfolios' with your github username
+url: "https://gaojun0816.github.io"
+# Edit next line so that baseurl is "" if your repo is <username>.github.io
+baseurl: ""
 
-paginate:         5
+# OPTIONAL CHANGES
+# You might want to change the bio page label to something else, such as CV
+bio-page-label: CV
+pub-page-label: Publications
+# You might want to change the theme associated with one or more sections of the site.
+# Defining your own custom theme variations is easy. See the documentation.
+theme-home: theme-home-builtin-1.html
+theme-projects: theme-projects-builtin-1-pj.html
+theme-essays: theme-essays-builtin-1-pj.html
+theme-bio: theme-bio-jun.html
 
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-
-# Custom vars
-version:           1.0.0
-sidebar_home_link:  true
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+markdown: kramdown
 include: [_data]
+
