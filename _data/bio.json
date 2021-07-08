@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Jun GAO",
-    "label": "Doctoral Researcher",
+    "label": "Research Associate",
     "cv": "/resources/CV_wo_photo.pdf",
     "picture": "/images/jun_square.jpg",
     "email": "gaojun0816@yahoo.com",
     "phone": "+352 661 445 720",
     "website": "https://gaojun0816.github.io",
-    "summary": "I am a doctoral researcher at the [University of Luxembourg](https://wwwen.uni.lu/) under the supervision of [Prof. Jacques Klein](https://jacquesklein2302.github.io/) and [Prof. Tegawendé F. BISSYANDE](https://bissyande.github.io/). My research topic is on the security of Android applications. The main tasks include: 1) Developing static analysis tools with mainly Java. 2) Mining tool reports for features, patterns, etc., with Python and relevant data analysis libraries (e.g., numpy, pandas, matplotlib). 3) Deploying investigations and analyses on [HPC](https://hpc.uni.lu/) for large scale study with Bash and Python script.<br/><br/>I received my M.S. degree in Communication Systems from [Royal Institute of Technology (KTH)](https://www.kth.se/en), Sweden, and will be granted a Ph.D. degree in Computer Science in Jan 2021. I have more than 7 years of professional experience in a few different technical sectors as well. These reflect my eagerness for various technologies and competency in efficient self-learning. I am open-minded and also a person of critical thinking and self-examination.<br/><br/> In my leisure time, I am a jogger and badminton player. I enjoy reading Sci-Fi novels, books on physics, mathematics, economics as well as history. I also do side projects on machine learning and microcontroller programming.",
+    "summary": "I am a Research Associate at the [University of Luxembourg](https://wwwen.uni.lu/) in group [TruX](https://wwwfr.uni.lu/snt/research/trux) jointly led by [Prof. Jacques Klein](https://jacquesklein2302.github.io/) and [Prof. Tegawendé F. BISSYANDE](https://bissyande.github.io/). My research topic is on the security of Android applications. <br/><br/>I received my Ph.D. degree in Computer Science in early 2021 from [University of Luxembourg](https://wwwen.uni.lu/). I have more than 7 years of professional experience in quite a few different technical sectors as well. These reflect my eagerness for various technologies and competency in efficient self-learning. I am open-minded and I'm a person of critical thinking and self-examination.<br/><br/> In my leisure time, I am a jogger and badminton player. I enjoy reading Sci-Fi novels, books on physics, mathematics, economics as well as history. I also do side projects on machine learning and microcontroller programming.",
     "location": {
       "address": "12 rue des Roses",
       "postalCode": "7249",
@@ -35,6 +35,20 @@
   },
   "work": [
     {
+      "company": "University of Luxembourg, Luxembourg",
+      "position": "Research Associate",
+      "website": "https://www.uni.lu",
+      "startDate": "2021-01-15",
+      "endDate": "Now",
+      "summary": "",
+      "highlights": [
+        "Reading research papers to follow up latest research status and state-of-the- art techniques and tools, in order to setup research goals and steps.",
+        "Scraping websites and developing statistic analysis tools to collect data for empirical studies or ML/DL model training.",
+        "Develop tools, selecting ML algorithms or tuning DL networks to achieve re- search goals.",
+        "Writing, revising, reviewing, publishing research papers, attending academic conference and presenting research results."
+      ]
+    },
+    {
       "company": "Yabroad Information Co. Ltd, China",
       "position": "Co-founder, CTO",
       "website": "",
@@ -42,12 +56,9 @@
       "endDate": "2016-06-01",
       "summary": "",
       "highlights": [
-        "VPN setup (openvpn)",
-        "Access control (Linux iptable)",
-        "Git server setup",
-        "Webserver setup (AWS)",
-        "Web application design and development",
-        "Project management"
+        "<em>Project Management</em>: <ul> <ui>Functionality requirements collection.</ui> <ui>Development strategic plan.</ui> <ui>Development process control.</ui> </ul> ",
+        "<em>Web Application Development</em>: <ul> <ui>Development planning.</ui> <ui>Developed an online chatting system based on XMPP.</ui> <ui>Developed the dynamic testing system based on selenium Python.</ui> <ui>Implemented part of the website UI by using JavaScript, HTML and CSS.</ui> </ul>",
+        "<em>Service Setup</em>: <ul> <ui>VPN setup (openvpn).</ui> <ui>Access control (Linux iptable).</ui> <ui>Version control server setup (Git).</ui> <ui>Webserver setup (AWS).</ui> <ui>CDN setup (CloudFlare).</ui> <ui>Work ow management system setup.</ui> </ul>",
       ]
     },
     {
@@ -64,17 +75,25 @@
       ]
     }
   ],
-  "volunteer": [
+  "services": [
     {
-      "organization": "",
-      "position": "Editorial Boards",
-      "summary": "",
-      "highlights": [
-        "Journal of Empirical Software Engineering, 2004-2008",
-        "IEEE Transactions on Software Engineering, 2000-2004",
-        "International Journal of Computer Supported Cooperative Work, 1997-2004"
-      ]
+      "conference": "The 2018 International Workshop on Advances in Mobile App Analysis",
+      "abbr": "A-Mobile 2018",
+      "position": "Publicity Chair",
+      "year": "2018",
+      "link": "https://a-mobile.github.io/amobile2018.html",
+      "summary": ""
     },
+    {
+      "conference": "The 32nd IFIP International Conference on Testing Software and Systems",
+      "abbr": "IFIP-ICTSS 2020",
+      "position": "Program Committee",
+      "year": "2020",
+      "link": "http://home.ing.unisannio.it/ictss2020/",
+      "summary": ""
+    }
+  ],
+  "volunteer": [
     {
       "organization": "",
       "position": "Industrial Boards",
@@ -117,7 +136,7 @@
       "area": "Mobile Security",
       "studyType": "Ph.D.",
       "startDate": "2017-01-15",
-      "endDate": "Present",
+      "endDate": "2021-01-14",
       "gpa": "",
       "courses": [],
       "thesis": "Mining App Lineages: A Security Perspective"
@@ -337,7 +356,7 @@
   "interests": [
     {
       "name": "Mobile Security",
-      "keywords": []
+      "keywords": [Android]
     },
     {
       "name": "Static Analysis",
@@ -347,7 +366,7 @@
       ]
     },
     {
-      "name": "Machine Learning/Deep Learing",
+      "name": "ML/DL",
       "keywords": []
     },
     {
